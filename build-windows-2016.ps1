@@ -1,0 +1,1 @@
+packer build --only=vmware-iso .\windows-2016.json
