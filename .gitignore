@@ -1,2 +1,7 @@
 output/
+
 packer_cache/
+
+vargantfile
+
+*.box
