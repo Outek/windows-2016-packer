@@ -1,0 +1,1 @@
+packer build -force --only=hyperv-iso .\hyperv-windows-2016-gen2.json
