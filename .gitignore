@@ -5,3 +5,6 @@ packer_cache/
 vargantfile
 
 *.box
+
+*.ISO
+*.iso

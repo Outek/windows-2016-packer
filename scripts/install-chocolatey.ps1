@@ -45,5 +45,9 @@ write-host "Install OpenSSH . . . "
 choco install openssh -params '"/SSHServerFeature"' -y | Out-Null
 write-host "END Install OpenSSH!"
 
+write-host "Install BGInfo . . . "
+choco install bginfo -params '"/all"' -y | Out-Null
+write-host "END Install BGInfo!"
+
 chocolatey feature disable -n=allowGlobalConfirmation
 Write-host "Choco Ended At: $((Get-Date).ToString())"
