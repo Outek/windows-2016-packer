@@ -2,7 +2,7 @@ output/
 
 packer_cache/
 
-vargantfile
+vagrantfile
 
 *.box
 

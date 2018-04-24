@@ -1,0 +1,1 @@
+Get-FileHash -Path .\<iso_file>.iso -Algorithm SHA256 | Format-List
