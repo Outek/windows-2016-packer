@@ -45,13 +45,13 @@
       "elevated_user": "vagrant",
       "elevated_password": "vagrant",
       "scripts": [
+        "./scripts/pin-powershell.bat",
         "./scripts/install-chocolatey.ps1",
         "./scripts/compile-dotnet-assemblies.ps1",
         "./scripts/cleanup.ps1",
         "./scripts/ultradefrag.ps1",
         "./scripts/optimize-drive.ps1",
-        "./scripts/sdelete.ps1",
-        "./scripts/pin-powershell.bat"
+        "./scripts/sdelete.ps1"
       ],
       "valid_exit_codes": [
         0,

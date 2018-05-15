@@ -1,19 +1,8 @@
-$ProgressPreference="SilentlyContinue"
-
-$variablePath = ""
-for ([byte]$c = [char]'A'; $c -le [char]'Z'; $c++)  
-{  
-	$variablePath = [char]$c + ':\variables.ps1'
-
-	if (test-path $variablePath) {
-		. $variablePath
-		break
-	}
-}
+$ProgressPreference = "SilentlyContinue"
 
 $msi_file_name = "sdelete.exe"
 
-$scriptPath = split-path -parent $variablePath
+$scriptPath = "E:\"
 $download_path = join-path $scriptPath $msi_file_name 
 
 if ($SkipSDelete){

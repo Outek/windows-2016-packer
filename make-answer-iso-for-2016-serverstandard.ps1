@@ -40,8 +40,6 @@ copy scripts\sdelete.ps1 $isoFolder\
 
 copy scripts\enable-rdp.bat $isoFolder\
 
-copy scripts\pin-powershell.bat $isoFolder\
-
 & .\mkisofs.exe -r -iso-level 4 -UDF -o windows\$osFolder\answer.iso $isoFolder
 
 if (test-path $isoFolder){
